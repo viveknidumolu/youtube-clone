@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grids</title>
+    </head>
+
+    <body style="padding-bottom: 1000px">
+        <div style="
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 100px 100px;
+            ">
+            <div style="
+            background-color:aqua">Div 1</div>
+            <div style="
+            background-color:teal">Div 2 go to next row</div>
+        </div>
+        <div style="
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            ">
+            <div style="
+            background-color:aqua">Div 1</div>
+            <div style="
+            background-color:teal">Div 2 go to next row</div>
+            <div style="
+            background-color:yellow">Div 3</div>
+            <div style="
+            background-color:teal"> Div go to next row without mentioning the 4th column</div>
+        </div>
+        <div style="
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            ">
+            <div style="
+            background-color:aqua">Div 1</div>
+            <div style="
+            background-color:teal">Div 2 go to next row</div>
+        </div>
+        <div style="
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40px;
+            ">
+            <div style="
+            background-color:aqua; height: 200px">1fr</div>
+            <div style="
+            background-color:rgb(255, 1, 234); height: 200px">1fr</div>
+            <div style="
+            background-color: aqua; height: 200px">1fr</div>
+            <div style="
+            background-color:rgb(255, 1, 234); height: 200px">1fr</div>
+            <div style="
+            background-color:aqua; height: 200px">1fr</div>
+            <div style="
+            background-color:rgb(255, 1, 234); height: 200px">1fr</div>
+        </div>
+    </body>
+</html>
